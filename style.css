@@ -73,6 +73,7 @@ body {
   width: 100%;
   padding-left: var(--padding-xs);
   margin-top: var(--margin-s);
+  padding-top: var(--padding-s);
 }
 
 .nav-bar-list {
