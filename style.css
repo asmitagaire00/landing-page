@@ -182,6 +182,7 @@ body {
 
 #pricing {
   margin-top: var(--margin-xl);
+  margin-bottom: var(--margin-xl);
 }
 
 .pricing__items {
