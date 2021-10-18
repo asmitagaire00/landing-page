@@ -21,6 +21,7 @@ body {
   --color-grey: rgb(214, 205, 205);
   --color-blue: lightblue;
 
+  --margin-xs: 0.2rem;
   --margin-s: 0.8rem;
   --margin-m: 2.2rem;
   --margin-lg: 2.6rem;
@@ -47,7 +48,7 @@ body {
   top: 0px;
   left: 0;
   right: 0;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .header__logo {
@@ -64,6 +65,7 @@ body {
   padding-left: var(--padding-s);
   padding-top: var(--padding-xs);
   margin-right: var(--margin-s);
+  margin-bottom: var(--margin-m);
 }
 
 .header__name {
@@ -73,13 +75,10 @@ body {
   margin-top: var(--margin-s);
 }
 
-#nav-bar {
-  margin-top: var(--margin-m);
-}
-
 .nav-bar-list {
   list-style: none;
   display: flex;
+  margin-top: var(--margin-m);
 }
 
 .nav-link {
@@ -95,6 +94,7 @@ body {
 @media screen and (max-width: 600px) {
   .nav-bar-list {
     flex-direction: column;
+    margin-top: var(--margin-xs);
   }
 
   #header-img {
